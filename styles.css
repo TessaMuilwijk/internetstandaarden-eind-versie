@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+
+body{background-color: rgb(59, 4, 4)}
+
+a {text-decoration: none;
+   color: white;
+
+}
+
+header {color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(35, 2, 2);
+    padding: 2em;
+
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 0.3em;
+    font-size: 2.5em;
+    
+}
+
+
+ul{    
+    text-align: center;
+    margin-top: 2em;
+
+
+}
+
+li{
+    color: white;
+    display: inline; 
+    padding: 1em;
+    padding-top: 0.30em;
+    text-align: center;
+
+}
+
+nav li a {
+    transition: color   200ms   ease;
+
+}
+
+nav li a:hover {
+    color: rgb(93, 25, 25);
+    text-decoration: underline;
+
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    padding: 1em;
+    background-color:rgb(35, 2, 2) ;
+}
+
+h2, h3, p {
+    color: white;
+}
+
+/*------------------home------------------------*/
+
+
+.home section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    margin: 2em;
+    text-align: center;
+    font-family: serif;
+
+}
+
+
+.home #background-video {
+    display: flex;
+    justify-content: center;
+    opacity: 50%;
+    padding: 2em;
+}
+
+
+/*------------------ontstaan--------------------*/
+
+
+.ontstaan article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em 1em 2em 1em;
+    margin: 2em 4em 3em 4em;
+    border: solid 0.5em rgb(71, 24, 24);
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------favorieten--------------------*/
+
+.favorieten h2, h3,p {
+    text-align: center;
+    padding: 1em;
+}
+
+.favorieten main section p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    padding: 4em;
+}
+
+
+.favorieten img {
+    max-width: 25%;
+    margin: 0 auto;
+}
+
+
+.favorieten main section {
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+
+
+
+/*------------------feitjes--------------------*/
+
+.feitjes h2 {
+    margin: 2em 2em 2em 2em;
+    text-align: center;
+
+}
+
+.feitjes p {
+    margin: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.feitjes main section {
+    display: flex;
+    border: solid;
+    border-color: rgb(75, 20, 20);
+    border-width: 0.5em;
+    border-radius: 2em;
+}
+
+.feitjes main section:nth-of-type(odd){
+    flex-direction: row;
+    margin: 2em 2em 2em 2em;
+}
+
+
+.feitjes main section:nth-of-type(even){
+    flex-direction: row-reverse;
+    margin: 2em 2em 2em 2em;
+}
+
+
+.feitjes main section img {
+    border-radius: 0.5em;
+    object-fit: cover;
+    padding: 2em;
+}
+
+
+.feitjes main section {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.4s ease;
+}
+
+.feitjes section:hover {
+    transform: scale(0.97)
+}
+
+.feitjes section img {
+    height: 50vh;
+}
+
+
+/*---------bronnen--------*/
+
+
+.bronnen main a {
+    text-decoration: underline;
+    margin: 1em;
+
+}
+
+.bronnen h2 {
+    font-size: 1.5em;
+    margin: 1em;
+}
+
+.bronnen h3 {
+    text-align: left;
+    color: rgb(142, 35, 35);
+}
+
+.bronnen main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3em;
+}
